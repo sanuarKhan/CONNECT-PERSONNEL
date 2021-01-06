@@ -1,0 +1,270 @@
+/* common font family start */
+
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url(../Fonts/Proxima\ Nova\ Bold.otf);
+  }
+  @font-face {
+    font-family: ProximaNovaLight;
+    src: url(../Fonts/proximanovalight.ttf);
+  }
+  @font-face {
+    font-family: ProximaNovaRegular;
+    src: url(../Fonts/ProximaNovaRegular.ttf);
+  }
+  .ProximaNovaBold{
+      font-family: ProximaNovaBold;
+  }
+  .ProximaNovaLight{
+    font-family: ProximaNovaLight;
+}
+.ProximaNovaRegular{
+    font-family: ProximaNovaRegular;
+}
+  
+/* common font family end */
+
+/* common color code start */
+.c-7C6DA4{
+    color:#7C6DA4;
+   
+}
+.c-615b9b{
+    
+    color: #615b9b;
+}
+/* common color code end */
+
+/* common boder start */
+.b-7C6DA4{
+    border:1px solid #7C6DA4;
+}
+/* common border end */
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+
+
+
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul,li{
+    list-style: none;
+    display: inline;
+}
+
+/* common css end */
+
+
+/* header part css start*/
+.head-top{
+    /* height: 294x;
+    line-height: 294px; */
+}
+.head-top li a{
+    border: 1px solid #000;
+    border-radius: 10px;
+     padding: 4px 20px;
+   /* mar20px; */gin: 
+    font-family:ProximaNovaBold;
+   /* font-size: 30px; */
+   color:#615b9b;
+   
+}
+
+.head-middle{
+    background:#1b1740;
+    /* height: 192px;
+    line-height: 192px; */
+}
+.head-middle a{
+   color: #fff;
+   font-family:ProximaNovaBold;
+   /* font-size: 44px; */
+}
+
+.head-bottom{
+    background-image: url(../images/CONNECT_260.png);
+    background-position: -17% 22%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+   
+    
+    
+}
+.overlay{
+    background-image: linear-gradient(to right, #30258078,#5d42b5de, #20185F);
+
+}
+.custom-btn{
+    border: 1px solid #574FA3;
+    border-radius: 10px;
+}
+
+
+/* header part css end*/
+
+/* brief into section start */
+
+.bg-box1{
+    background: #3aa9d1c5;
+    overflow: hidden;
+}
+.bg-box1,.bg-box2, .bg-box3 h3,button{
+    font-family: ProximaNovaBold;
+    
+}
+.bg-box1,.bg-box2, .bg-box3 p{
+    font-family: ProximaNovaLight;
+    
+}
+
+.position-right{
+    position: absolute;
+    right: -54px;
+    bottom: 55px;
+    z-index: -1;
+    
+}
+.bg-box2 {
+    background: #44b2e6a1;
+    overflow: hidden;
+}
+.bg-box2 .position-right{
+    
+    right: -81px;
+    bottom: 3px;
+   
+    
+    
+}
+
+.bg-box3 {
+    background: #515ebe9f;
+    overflow: hidden;
+}
+.bg-box3 .position-right{
+    
+    right: -8px;
+    bottom: 55px;
+   
+    
+    
+}
+/* brief into section end */
+  /* latest-role section start */
+.latest-role{
+    background: #F5F3FC;
+}
+.latest-role h2{
+    color: #1b1740;
+}
+
+
+
+
+ /* latest-role section end */
+
+
+ /* Connect Group section start */
+ .ConnectGroup{
+    position: relative;
+ }
+ .ConnectGroup-bg{
+    
+    height: 600px;
+    background: rgb(54, 235, 235);
+    background-image: url(../images/shutterstock_1033103851.jpg);
+    background-position: 0% 46%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+
+ .ConnectGroup .text-box{
+    background: #614C9A;
+    width: 40%;
+    height: 84%;
+    position:absolute;
+    right: 0;
+    bottom:0;
+}
+ /* latest-role section end */
+ /* footer section start */
+
+ footer{
+     background: #100329;
+ }
+footer .alignment{
+    text-align: right;
+}
+footer .col-lg-4 img{
+    width: 18px;
+}
+/* footer section end */
+
+/* responsive css */
+@media  (max-width:640px){
+    .small-view{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head-top ul{
+        display: none;
+    }
+    .head-middle{
+        display: none;
+    }
+    .head-bottom{
+        
+        background-position: 5% 29%;
+        
+    }
+    .head-bottom .row{
+        
+        display: none;
+       
+        
+        
+    }
+    .position-right {
+        right: -14px;
+        width: 25%!important;
+    }
+    .ConnectGroup-bg{
+    
+        
+        
+        display: none;
+        
+    }
+    
+     .ConnectGroup .text-box{
+        background: #614C9A;
+        width: 100%;
+        height: 50%;
+        position:initial;
+        right: 0;
+        bottom:0;
+    }
+    .text-hide{
+        display: none;
+    }
+    footer img{
+        width: 20px;
+    }
+    footer .large{
+       display: none;
+    }
+}
